@@ -1,0 +1,11 @@
+Material Type,Recyclable,Compostable
+Plastic,True,False
+Paper,True,True
+Glass,True,False
+Bioplastic,False,True
+Aluminum,True,False
+Cardboard,True,True
+Steel,True,False
+Bamboo,False,True
+Polystyrene,False,False
+PLA Bioplastic,False,True
