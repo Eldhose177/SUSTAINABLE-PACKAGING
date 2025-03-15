@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Find Eco-Friendly Materials</h2>
+        
+        <label for="material_type">Material Type:</label>
+        <input type="text" id="material_type" placeholder="Enter material type...">
+
+        <label for="recyclable">Recyclable:</label>
+        <select id="recyclable">
+            <option value="">Any</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+
+        <label for="compostable">Compostable:</label>
+        <select id="compostable">
+            <option value="">Any</option>
+            <option value="true">Yes</option>
+            <option value="false">No</option>
+        </select>
+
+        <button onclick="getRecommendations()">Search</button>
+
+        <h3>Recommendations:</h3>
+        <ul id="results"></ul>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
