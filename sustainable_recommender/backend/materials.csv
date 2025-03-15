@@ -1,11 +1,11 @@
-Material Type,Recyclable,Compostable
-Plastic,True,False
-Paper,True,True
-Glass,True,False
-Bioplastic,False,True
-Aluminum,True,False
-Cardboard,True,True
-Steel,True,False
-Bamboo,False,True
-Polystyrene,False,False
-PLA Bioplastic,False,True
+Material Type,Recyclable,Compostable,Description
+Cardboard,True,False,Cardboard is a thick, durable paper-based material commonly used in packaging.
+Glass,True,False,Glass is a non-porous material that can be recycled multiple times without degradation.
+Biodegradable Plastic,False,True,Biodegradable plastics break down in composting environments, reducing waste.
+Paper,True,True,Paper is a versatile material that is both recyclable and compostable.
+Aluminum,True,False,Aluminum is a lightweight metal that can be infinitely recycled.
+PLA (Polylactic Acid),False,True,PLA is a plant-based bioplastic that degrades under composting conditions.
+HDPE Plastic,True,False,High-density polyethylene (HDPE) is a recyclable plastic commonly used in bottles.
+Bamboo,False,True,Bamboo is a fast-growing, renewable resource that is biodegradable and compostable.
+Steel,True,False,Steel is a strong metal that is widely recycled in industrial processes.
+Cornstarch Packaging,False,True,Cornstarch-based packaging is an eco-friendly alternative that decomposes naturally.
